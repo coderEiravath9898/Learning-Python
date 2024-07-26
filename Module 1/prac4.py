@@ -1,4 +1,7 @@
-fighter_jet = input('Enter The Name Of A Russian Fighter Jet ')
+name = input("Enter Your Name")
+dob = input("Date of Birth")
+current_year =2024
+age = 2024 - int(dob)
 
-print(len(fighter_jet))
-print("The Length Of The String Is ",len(fighter_jet))
+
+print(f"My name is {name} and I am {age} years old")

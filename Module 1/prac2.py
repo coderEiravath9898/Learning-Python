@@ -1,6 +1,4 @@
-print("Enter Some Text : ")
-user_text=input()
-print(user_text)
+user_input = input("What is Your Name? \n")
+print("Hello "+user_input)
 
-prompt="What is Your Name"
-print(input(prompt))
+print(len(input("Who is your favourite cricketer ?")))

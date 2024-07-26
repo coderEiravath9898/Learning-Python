@@ -1,12 +1,10 @@
-prompt = "Enter Your Favourite Cricketer's Name"
-name1=input(prompt)
-name2=input(prompt)
-name3=input(prompt)
-name4=input(prompt)
+name=input("Enter Your Favourite Cricketer's Name");
+# jersey_no = input("Enter His Jersey Number")
+jersey_no = 18
 
-names =[name1,name2,name3,name4]
-print(names)
+print(name+"'s Jersey Number Is  "+str(jersey_no))
 
 
-print(type(name1))
-print(type(names))
+years = input("Enter number of years ")
+res=52*int(years)
+print("There are "+str(res)+" weeks in "+years+" years")
